@@ -25,7 +25,7 @@ namespace AlgorithmsDataStructures.ArrayChunking
                     result.Add(chunck.ToArray());
                     chunck = new List<int>();
                 }
-
+                 
                 chunck.Add(intArray[i - 1]);
             }
 
